@@ -1406,6 +1406,7 @@
     <Content Include="AdminApp\assets\fonts\font-awesome\fontawesome-webfont.eot" />
     <Content Include="AdminApp\assets\date-time-formats\date-time-formats.json" />
     <Content Include="AdminApp\63b8ee5b81329a75.ttf" />
+    <Content Include="App_Data\Sitefinity\Configuration\SystemConfig.config" />
     <None Include="packages.config" />
     <Content Include="SampleTemplate.cshtml">
       <Generator>RazorGenerator</Generator>
