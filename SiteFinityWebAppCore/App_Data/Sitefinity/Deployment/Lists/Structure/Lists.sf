@@ -1,0 +1,68 @@
+[
+  {
+    "Id": "45e000e8-d72c-471e-b1b6-efec13728c21",
+    "Namespace": "Telerik.Sitefinity.Lists.Model",
+    "ClassName": "ListItem",
+    "Fields": [
+      {
+        "Id": "8efe0fb4-90f9-40bc-9946-02c71446ee56",
+        "FieldName": "Tags",
+        "ColumnName": "Tags1",
+        "TaxonomyProvider": "OpenAccessDataProvider",
+        "TaxonomyId": "cb0f3a19-a211-48a7-88ec-77495c0f5374",
+        "Presentation": [],
+        "MetaAttributes": [
+          {
+            "Id": "64d90855-b227-4528-975c-68b81d6fba91",
+            "Name": "IsCommonProperty",
+            "Value": "true"
+          },
+          {
+            "Id": "a1a77667-9dcb-4ab4-bd0a-9478aae115b8",
+            "Name": "ControlTag",
+            "Value": "<sitefinity:FlatTaxonField ID=\"FlatFieldControl\" DisplayMode=\"Read\" runat=\"server\" WebServiceUrl=\"~/Sitefinity/Services/Taxonomies/FlatTaxon.svc\" AllowMultipleSelection=\"true\" TaxonomyId=\"CB0F3A19-A211-48a7-88EC-77495C0F5374\" TaxonomyMetafieldName=\"Tags\" Expanded=\"false\" ExpandText=\"ClickToAddTags\" BindOnServer=\"true\" LayoutTemplatePath=\"~/SFRes/Telerik.Sitefinity.Resources.Templates.Fields.FlatTaxonFieldReadMode.ascx\" />"
+          },
+          {
+            "Id": "c778b10a-1780-489f-9fd6-9d7bffd64032",
+            "Name": "IsBuiltIn",
+            "Value": "true"
+          }
+        ],
+        "ApplicationName": "//",
+        "IsDynamic": true
+      },
+      {
+        "Id": "6dfff740-7af1-429d-b2cf-75ad3c3cd126",
+        "FieldName": "Category",
+        "ColumnName": "Category1",
+        "TaxonomyProvider": "OpenAccessDataProvider",
+        "TaxonomyId": "e5cd6d69-1543-427b-ad62-688a99f5e7d4",
+        "Presentation": [],
+        "MetaAttributes": [
+          {
+            "Id": "df3a5bc9-9c98-4afa-a57e-84b2bb0decfe",
+            "Name": "ControlTag",
+            "Value": "<sitefinity:HierarchicalTaxonField ID=\"HierarchicalFieldControl\" runat=\"server\" TaxonomyId=\"E5CD6D69-1543-427b-AD62-688A99F5E7D4\" DisplayMode=\"Read\" WebServiceUrl=\"~/Sitefinity/Services/Taxonomies/HierarchicalTaxon.svc\" Expanded=\"false\" TaxonomyMetafieldName=\"Category\" ExpandText=\"ClickToAddCategories\" BindOnServer=\"true\" LayoutTemplatePath=\"~/SFRes/Telerik.Sitefinity.Resources.Templates.Fields.HierarchicalTaxonFieldReadMode.ascx\"/>"
+          },
+          {
+            "Id": "8eda0469-5355-487a-88ad-e1304203d6d4",
+            "Name": "IsCommonProperty",
+            "Value": "true"
+          },
+          {
+            "Id": "f9ed656b-9108-4524-a67a-fa89fd9763ab",
+            "Name": "IsBuiltIn",
+            "Value": "true"
+          }
+        ],
+        "ApplicationName": "//",
+        "IsDynamic": true
+      }
+    ],
+    "ApplicationName": "//",
+    "Presentation": [],
+    "MetaAttributes": [],
+    "SectionNames": [],
+    "AssemblyName": "Telerik.Sitefinity.ContentModules"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "8522207b-891c-486d-8ba7-e1d2ce667b32",
+    "Namespace": "Telerik.Sitefinity.Security.Model",
+    "ClassName": "SitefinityProfile",
+    "Fields": [],
+    "ApplicationName": "//",
+    "Presentation": [],
+    "MetaAttributes": [
+      {
+        "Name": "UserFriendlyName",
+        "Value": "Basic profile"
+      }
+    ],
+    "SectionNames": [],
+    "AssemblyName": "Telerik.Sitefinity.Model"
+  }
+]

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<atom:entry xmlns:app="http://www.w3.org/2007/app" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cmis="http://docs.oasis-open.org/ns/cmis/core/200908/" xmlns:cmisra="http://docs.oasis-open.org/ns/cmis/restatom/200908/" xmlns:sf="urn:telerik:sitefinity:cmis" xml:base="https://localhost:44352/Sitefinity/CMIS/RestAtom/">
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>f15c164c-ef0a-4662-81ab-cb79f208fa27</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>Default</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:StagingUrl" />
+      <cmis:propertyString propertyDefinitionId="sf:LiveUrl">
+        <cmis:value>localhost</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:CultureKeys" sf:collectionType="IEnumerable" />
+      <cmis:propertyString propertyDefinitionId="sf:DefaultCultureKey" />
+      <cmis:propertyId propertyDefinitionId="sf:DefaultFrontendTemplateId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsOffline">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:DomainAliases" sf:collectionType="IEnumerable" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:RequiresSsl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:HomePageId">
+        <cmis:value>1b182d77-c6dc-4c5b-8622-e69b5b02d50e</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:FrontEndLoginPageId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:FrontEndLoginPageUrl" />
+      <cmis:propertyId propertyDefinitionId="sf:SiteMapRootNodeId">
+        <cmis:value>f669d9a7-009d-4d83-ddaa-000000000002</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsDefault">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:OfflineSiteMessage" />
+      <cmis:propertyId propertyDefinitionId="sf:OfflinePageToRedirect">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:RedirectIfOffline">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsLocatedInMainMenu">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyInteger propertyDefinitionId="sf:SiteConfigurationMode">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>f15c164c-ef0a-4662-81ab-cb79f208fa27</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Multisite.Model.Site</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:SiteConfigurationViewModelProp">
+        <cmis:value>{"DomainAliases":[],"FrontEndLoginPageId":"00000000-0000-0000-0000-000000000000","FrontEndLoginPageUrl":null,"HomePageId":"1b182d77-c6dc-4c5b-8622-e69b5b02d50e","Id":"f15c164c-ef0a-4662-81ab-cb79f208fa27","IsAllowedStartStop":false,"IsCurrentSite":true,"IsDefault":true,"IsOffline":false,"LiveUrl":"localhost","Name":"Default","OfflinePageToRedirect":"00000000-0000-0000-0000-000000000000","OfflineSiteMessage":null,"PublicContentCultures":[],"RedirectIfOffline":false,"RequiresSsl":false,"SiteConfigurationMode":0,"SiteMapRootNodeId":"f669d9a7-009d-4d83-ddaa-000000000002","SourcePagesSiteId":"00000000-0000-0000-0000-000000000000","StagingUrl":null,"SystemCultures":[{"Culture":"en","DisplayName":"English","FieldSuffix":"","IsDefault":true,"IsSystem":false,"Key":"english-en","ShortName":"en","SitesNames":[],"SitesUsingCultureAsDefault":[],"UICulture":"en"}],"UseSystemCultures":true,"DataSources":[{"AllowMultipleProviders":true,"DependantDataSources":[],"IsChecked":true,"Links":[{"DataSourceName":"Telerik.Sitefinity.Modules.Libraries.LibrariesManager","Id":"39bedb37-7430-40bc-9ad7-a4fd282ef01b","IsDefault":true,"IsGlobalProvider":false,"ProviderName":"OpenAccessDataProvider","ProviderTitle":"Default Libraries","SiteId":"f15c164c-ef0a-4662-81ab-cb79f208fa27"}],"Name":"Telerik.Sitefinity.Modules.Libraries.LibrariesManager","SampleLink":{"DataSourceName":"Telerik.Sitefinity.Modules.Libraries.LibrariesManager","Id":"00000000-0000-0000-0000-000000000000","IsDefault":true,"IsGlobalProvider":false,"ProviderName":"defaultlibraries","ProviderTitle":"Default Libraries","SiteId":"f15c164c-ef0a-4662-81ab-cb79f208fa27"},"Title":"Libraries"},{"AllowMultipleProviders":true,"DependantDataSources":[],"IsChecked":true,"Links":[{"DataSourceName":"Telerik.Sitefinity.Modules.Events.EventsManager","Id":"89fe81be-4ef0-4101-9e84-3d50b1757f86","IsDefault":true,"IsGlobalProvider":false,"ProviderName":"OpenAccessDataProvider","ProviderTitle":"Default Events","SiteId":"f15c164c-ef0a-4662-81ab-cb79f208fa27"}],"Name":"Telerik.Sitefinity.Modules.Events.EventsManager","SampleLink":{"DataSourceName":"Telerik.Sitefinity.Modules.Events.EventsManager","Id":"00000000-0000-0000-0000-000000000000","IsDefault":true,"IsGlobalProvider":false,"ProviderName":"defaultevents","ProviderTitle":"Default Events","SiteId":"f15c164c-ef0a-4662-81ab-cb79f208fa27"},"Title":"Events"},{"AllowMultipleProviders":true,"DependantDataSources":[],"IsChecked":true,"Links":[{"DataSourceName":"Telerik.Sitefinity.Modules.Blogs.BlogsManager","Id":"657ed239-23ce-4c34-a582-f1d86d61aa63","IsDefault":true,"IsGlobalProvider":false,"ProviderName":"OpenAccessDataProvider","ProviderTitle":"Default Blogs","SiteId":"f15c164c-ef0a-4662-81ab-cb79f208fa27"}],"Name":"Telerik.Sitefinity.Modules.Blogs.BlogsManager","SampleLink":{"DataSourceName":"Telerik.Sitefinity.Modules.Blogs.BlogsManager","Id":"00000000-0000-0000-0000-000000000000","IsDefault":true,"IsGlobalProvider":false,"ProviderName":"defaultblogs","ProviderTitle":"Default Blogs","SiteId":"f15c164c-ef0a-4662-81ab-cb79f208fa27"},"Title":"Blogs"},{"AllowMultipleProviders":true,"DependantDataSources":[],"IsChecked":true,"Links":[{"DataSourceName":"Telerik.Sitefinity.Modules.News.NewsManager","Id":"b7383095-8570-432a-aa2a-e97d4a3dca30","IsDefault":true,"IsGlobalProvider":false,"ProviderName":"OpenAccessDataProvider","ProviderTitle":"Default News","SiteId":"f15c164c-ef0a-4662-81ab-cb79f208fa27"}],"Name":"Telerik.Sitefinity.Modules.News.NewsManager","SampleLink":{"DataSourceName":"Telerik.Sitefinity.Modules.News.NewsManager","Id":"00000000-0000-0000-0000-000000000000","IsDefault":true,"IsGlobalProvider":false,"ProviderName":"defaultnews","ProviderTitle":"Default News","SiteId":"f15c164c-ef0a-4662-81ab-cb79f208fa27"},"Title":"News"},{"AllowMultipleProviders":true,"DependantDataSources":[],"IsChecked":true,"Links":[{"DataSourceName":"Telerik.Sitefinity.Modules.Lists.ListsManager","Id":"cb113e05-d2f2-417c-9724-a2f6117ca8d6","IsDefault":true,"IsGlobalProvider":false,"ProviderName":"OpenAccessDataProvider","ProviderTitle":"Default Lists","SiteId":"f15c164c-ef0a-4662-81ab-cb79f208fa27"}],"Name":"Telerik.Sitefinity.Modules.Lists.ListsManager","SampleLink":{"DataSourceName":"Telerik.Sitefinity.Modules.Lists.ListsManager","Id":"00000000-0000-0000-0000-000000000000","IsDefault":true,"IsGlobalProvider":false,"ProviderName":"defaultlists","ProviderTitle":"Default Lists","SiteId":"f15c164c-ef0a-4662-81ab-cb79f208fa27"},"Title":"Lists"},{"AllowMultipleProviders":true,"DependantDataSources":[],"IsChecked":true,"Links":[{"DataSourceName":"Telerik.Sitefinity.Modules.GenericContent.ContentManager","Id":"90f4e849-a36b-4673-ad20-05ae2eb8a4f7","IsDefault":true,"IsGlobalProvider":false,"ProviderName":"OpenAccessDataProvider","ProviderTitle":"Default Content","SiteId":"f15c164c-ef0a-4662-81ab-cb79f208fa27"}],"Name":"Telerik.Sitefinity.Modules.GenericContent.ContentManager","SampleLink":{"DataSourceName":"Telerik.Sitefinity.Modules.GenericContent.ContentManager","Id":"00000000-0000-0000-0000-000000000000","IsDefault":true,"IsGlobalProvider":false,"ProviderName":"defaultgenericcontent","ProviderTitle":"Default GenericContent","SiteId":"f15c164c-ef0a-4662-81ab-cb79f208fa27"},"Title":"GenericContent"}]}</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+</atom:entry>
