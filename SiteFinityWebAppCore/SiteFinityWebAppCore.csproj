@@ -1009,8 +1009,6 @@
     <Content Include="AdminApp\assets\js\monaco-editor\vs\basic-languages\src\vb.js" />
     <Content Include="AdminApp\assets\js\monaco-editor\vs\basic-languages\src\xml.js" />
     <Content Include="AdminApp\assets\js\monaco-editor\vs\basic-languages\src\yaml.js" />
-    <Content Include="AdminApp\assets\js\monaco-editor\vs\editor\contrib\suggest\browser\media\String_16x.svg" />
-    <Content Include="AdminApp\assets\js\monaco-editor\vs\editor\contrib\suggest\browser\media\String_inverse_16x.svg" />
     <Content Include="AdminApp\assets\js\monaco-editor\vs\editor\editor.main.css" />
     <Content Include="AdminApp\assets\js\monaco-editor\vs\editor\editor.main.js" />
     <Content Include="AdminApp\assets\js\monaco-editor\vs\editor\editor.main.nls.de.js" />
@@ -1707,6 +1705,9 @@
     <Analyzer Include="..\packages\AWSSDK.SQS.3.7.300.2\analyzers\dotnet\cs\SharedAnalysisCode.dll" />
     <Analyzer Include="..\packages\AWSSDK.TranscribeService.3.7.300.2\analyzers\dotnet\cs\AWSSDK.TranscribeService.CodeAnalysis.dll" />
     <Analyzer Include="..\packages\AWSSDK.TranscribeService.3.7.300.2\analyzers\dotnet\cs\SharedAnalysisCode.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AdminApp\assets\js\monaco-editor\vs\editor\contrib\suggest\browser\media\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
