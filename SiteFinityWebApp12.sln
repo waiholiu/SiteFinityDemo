@@ -5,6 +5,12 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteFinityWebAppCore", "SiteFinityWebAppCore\SiteFinityWebAppCore.csproj", "{486E5D53-45F5-46B7-9031-E11B61840415}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infra", "infra", "{BB6A0723-122D-4C65-AB1A-D0939574141F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\temp\appservicebicep\deploy.bicep = ..\..\..\temp\appservicebicep\deploy.bicep
+		..\..\..\temp\appservicebicep\script.sh = ..\..\..\temp\appservicebicep\script.sh
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
