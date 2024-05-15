@@ -1405,6 +1405,8 @@
     <Content Include="AdminApp\assets\date-time-formats\date-time-formats.json" />
     <Content Include="AdminApp\63b8ee5b81329a75.ttf" />
     <Content Include="App_Data\Sitefinity\Configuration\SystemConfig.config" />
+    <Content Include="App_Data\Sitefinity\Sitefinity.lic" />
+    <Content Include="App_Data\Sitefinity\Configuration\SecurityConfig.config" />
     <None Include="packages.config" />
     <Content Include="SampleTemplate.cshtml">
       <Generator>RazorGenerator</Generator>
@@ -1689,6 +1691,10 @@
     <Content Include="ResourcePackages\Bootstrap4\assets\src\sitefinity\sass\base\_list.scss" />
     <Content Include="ResourcePackages\Bootstrap4\assets\src\project\sass\main.scss" />
     <Content Include="ResourcePackages\Bootstrap4\assets\src\project\sass\adminapp\editor.scss" />
+    <None Include="Properties\PublishProfiles\sitefinity10-web - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\sitefinity11-web - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\sitefinity8-web - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\sitefinitydemowebapp - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
